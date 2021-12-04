@@ -6,11 +6,12 @@ import { PagesRoutingModule } from './pages/pages.routing';
 
 
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 const routes: Routes = [
-
-
-
+  //path: '/dasboard' PagesRoutingModule
+  //path: '/auth' AuthRoutingModule
+  
   { path: '**', component: NopagefoundComponent }
 ];
 
